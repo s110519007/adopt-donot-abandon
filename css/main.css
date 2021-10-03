@@ -1,0 +1,532 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e5ae4c;
+}
+.nav1 .logo{
+  margin: 0;
+  position: fixed;
+  height: 20px;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff8cc;
+  text-align: center;
+  border-radius: 99em;
+  z-index: 5;
+  right: 20px;
+  background-color: #eac781;
+}
+.nav1{
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eac781;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 99em;
+  display: flex;
+  transition: 0.5s;
+  overflow: hidden;
+  z-index: 2;
+}
+.nav1:hover{
+  margin: 0;
+  padding: 0;
+  width: 420px;
+  position: fixed;
+  background-color: #eac781;
+  border-radius: 99em;
+  transition: 0.8s;
+  z-index: 2;
+}
+.nav1 .buttun{
+  position: absolute;
+  flex-direction: column;
+  width: auto;
+  height: 20px;
+  border-radius: 99em;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 0;
+  z-index: 3;
+}
+.buttun:nth-child(3){
+  margin-left: 70px;
+}
+.buttun:nth-child(4){
+  margin-left: 155px;
+}
+.buttun:nth-child(5){
+  margin-left: 240px;
+}
+.buttun:nth-child(6){
+  margin-left: 325px;
+}
+.nav1 .buttun .link{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: '微軟正黑體';
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7a612e;
+}
+.nav1 .buttun .link:hover{
+  color: #fff8cc;
+  transition: 0.2s;
+}
+.cover{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.cover .img1{
+  position: fixed;
+  z-index: -50;
+  width: 80%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.area{
+  width: 80%;
+  height: 100vh;
+  margin: 0;
+  padding: 0 10%;
+}
+.section{
+  width: auto;
+  height: 100vh;
+  margin: 0 auto 0 auto;
+}
+.section h1{
+  margin: 0;
+  padding: 0;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: '微軟正黑體';
+}
+.section p{
+  padding: 0;
+  margin: 0;
+  height: 70%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: '微軟正黑體';
+}
+.head{
+  margin: 0;
+  padding: 0;
+  height: 38vh;
+  position: absolute;
+}
+.head img{
+  object-fit: cover;
+}
+.area1{
+  background-color: #fff8cc;
+}
+.area1 h1{
+  color: #7a612e;
+}
+.area1 p{
+  color: #7a612e;
+  font-weight: bold;
+}
+.area1 .item{
+  display: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  font-size: 30px;
+  color: #7a612e;
+}
+.area1 .item:nth-child(1){
+  transform: rotate(45deg);
+  top: 190%;
+  left: 3%;
+}
+.area1 .item:nth-child(2){
+  transform: rotate(35deg);
+  top: 185%;
+  left: 9%;
+}
+.area1 .item:nth-child(3){
+  transform: rotate(55deg);
+  top: 175%;
+  left: 11%;
+}
+.area1 .item:nth-child(4){
+  transform: rotate(25deg);
+  top: 172%;
+  left: 18%;
+}
+.area1 .item:nth-child(5){
+  transform: rotate(55deg);
+  top: 162%;
+  left: 20%;
+}
+.area1 .head{
+  margin: 0;
+  padding: 0;
+  top: 150vh;
+  right: 5%;
+  animation-name: head1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes head1{
+  0%{transform: rotate(20deg);}
+  50%{transform: rotate(-20deg);}
+  100%{transform: rotate(20deg);}
+}
+.area2{
+  background-color: #7a612e;
+}
+.area2 h1{
+  height: 25%;
+  color: #fff8cc;
+}
+.area2 p{
+  height: 50%;
+  color: #fff8cc;
+}
+.area2 .warn{
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  transform: rotate(-20deg);
+  position: absolute;
+  right: 10%;
+  top: 210vh;
+  color: #fff8cc;
+  display: none;
+}
+.area2 .head2{
+  top: 250vh;
+  left: 10%;
+}
+.area2 .head2:hover{
+  animation-name: head2;
+  animation-duration: 0.7s;
+  transition: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head2{
+  0%{
+    top: 250vh;
+    left: 10%;
+  }
+  30%{
+    top: 235vh;
+    left: 10%;
+  }
+  100%{
+    top: 250vh;
+    left: 10%;
+  }
+}
+.area2 .head3{
+  margin: 0;
+  padding: 0;
+  top: 260vh;
+  left: 44%;
+}
+.area2 .head3:hover{
+  animation-name: head3;
+  animation-duration: 0.7s;
+  transition: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head3{
+  0%{
+    top: 260vh;
+    left: 44%;
+  }
+  30%{
+    top: 245vh;
+    left: 44%;
+  }
+  100%{
+    top: 260vh;
+    left: 44%;
+  }
+}
+.area2 .head4{
+  margin: 0;
+  padding: 0;
+  top: 250vh;
+  right: 10%;
+}
+.area2 .head4:hover{
+  animation-name: head4;
+  animation-duration: 0.7s;
+  transition: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head4{
+  0%{
+    top: 250vh;
+    right: 10%;
+  }
+  30%{
+    top: 235vh;
+    right: 10%;
+  }
+  100%{
+    top: 250vh;
+    right: 10%;
+  }
+}
+.area3{
+  background-color: #fff8cc;
+}
+.area3 h1{
+  color: #7a612e;
+  height: 25%;
+}
+.area3 .content{
+  padding: 10px;
+  margin: 0;
+  margin-top: 20px;
+  width: 250px;
+  height: 200px;
+  background-color: #eac781;
+  color: #7a612e;
+  font-family: '微軟正黑體';
+  font-weight: bold;
+  border-radius: 5px;
+}
+.part_wrap{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.part{
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+.method{
+  padding: 0;
+  margin: 0;
+  left: 15%;
+  height: 150px;
+  width: 150px;
+  border: 8px solid #7a612e;
+  border-radius: 99em;
+  position: relative;
+}
+.title{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 28%;
+  top: 35%;
+  text-align: center;
+  color: #eac781;
+  font-family: '微軟正黑體';
+  font-size: 34px;
+  font-weight: bold;
+  display: none;
+}
+.method:hover .method_img{
+  transition: 0.8s;
+  display: none;
+}
+.method:hover .title{
+  transition: 0.8s;
+  display: block;
+}
+.method_img{
+  height: 60px;
+  object-fit: cover;
+  object-position: center center;
+}
+.food{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.food img{
+  padding: 40px 22%;
+}
+.health{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.health img{
+  padding: 40px 30%;
+}
+.home{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.home img{
+  height: 80px;
+  padding: 30px 25%;
+}
+.area4{
+  background-color: #7a612e;
+}
+.area4 h1{
+  color: #fff8cc;
+  height: 20%;
+}
+.area4 p{
+  color: #fff8cc;
+}
+.heads{
+  margin: 0;
+  margin-left: -3%;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+.poodle{
+  margin: 0;
+  padding: 0;
+  margin-top: 27vh;
+}
+.poodle:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.5s;
+}
+.shiba{
+  margin: 0;
+  padding: 0;
+  margin-top: 15vh;
+}
+.shiba:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.5s;
+}
+.mix{
+  margin: 0;
+  padding: 0;
+  margin-top: 5vh;
+}
+.mix:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.5s;
+}
+.corgi{
+  margin: 0;
+  padding: 0;
+  margin-top: 15vh;
+}
+.corgi:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.5s;
+}
+.french{
+  margin: 0;
+  padding: 0;
+  margin-top: 27vh;
+  margin-left: 50px;
+}
+.french:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.5s;
+}
+.connect{
+  padding: 0;
+  margin: 0;
+  left: 43.5%;
+  top: 468vh;
+  position: absolute;
+  color: #eac781;
+  font-size: 200px;
+  text-align: center;
+  
+}
+footer{
+  background-color: #eac781;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  text-align: right;
+  padding-right: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1.25px solid #7a612e;
+}
+.f_title{
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-family: '微軟正黑體';
+  color: #473717;
+  font-weight: bold;
+}
+.source{
+  text-decoration: none;
+  font-family: '微軟正黑體';
+  font-size: 16px;
+  color: #7a612e;
+}
+.source:hover{
+  color: #fff8cc;
+  transition: 0.2s;
+}
+.declare{
+  margin: 0;
+  padding: 0;
+  width: 48%;
+  padding-left: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.d_title{
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-family: '微軟正黑體';
+  color: #473717;
+  font-weight: bold;
+}
+.declare p{
+  margin: 0;
+  padding: 0;
+  font-family: '微軟正黑體';
+  font-size: 16px;
+  color: #7a612e;
+}
